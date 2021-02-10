@@ -1,0 +1,41 @@
+/*--------------------------------------*/
+/* Big tablet to 1200px (Smaller then the 1140px row */
+/*--------------------------------------*/
+@media only screen and (max-width:1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .row{padding: 0 2rem;}
+}
+
+
+/*--------------------------------------*/
+/* Small tablet to big tablet: 768px to 101023px */
+/*--------------------------------------*/
+@media only screen and (max-width: 1023px) {
+    html{font-size:9px;}
+    section {padding: 6rem 0;}
+    p.long-copy {
+        width: 82%;
+        margin-left: 10%;
+    }
+    .work-step {
+        margin-bottom: 1rem;
+    }
+    .step-box {
+        margin-top: 1rem;
+    }
+}
+
+
+/*--------------------------------------*/
+/* Small phone to small tablet: 481px to 767px */
+/*--------------------------------------*/
+@media only screen and (max-width: 767px) {}
+
+
+/*--------------------------------------*/
+/* Small phone: from 0 to 480px*/
+/*--------------------------------------*/
+@media only screen and (max-width: 480px) {}
